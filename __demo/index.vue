@@ -1,5 +1,5 @@
 <template>
-<div class="parent" @click="btnClick()"><div class="child" @click="proxy($event)">挟天子以令诸侯</div>父元素角落瑟瑟发抖~~</div>
+<div class="parent" @click="btnClick()"><div class="child" @click="proxy($event)">子元素决定是否冒泡</div>父元素角落瑟瑟发抖~~</div>
 </template>
 
 <script>
